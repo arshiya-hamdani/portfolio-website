@@ -1,0 +1,128 @@
+.project {
+  width: 100%;
+  padding: 80px 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #070707;
+}
+
+.project h2 {
+  text-align: center;
+  color: #64ffda;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.project-card {
+  width: 30%;
+  background: #1c1c1c;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto; /* Changed to auto */
+  max-height: 180px; /* Ensure max height */
+  object-fit: cover; /* Changed from fill to cover */
+  transition: transform 0.3s;
+}
+
+.project-card:hover img {
+  transform: scale(1.1);
+}
+
+.project-card-content {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.project-card-content h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #64ffda;
+  text-transform: uppercase;
+}
+
+.project-card-content p {
+  font-size: 1rem;
+  color: #b0b0b0;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.project-links a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px;
+  background-color: #64ffda;
+  color: #070707;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project-links a:hover {
+  background-color: #424343;
+  color: #64ffda;
+}
+
+@media (max-width: 1300px) {
+  .project-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-card {
+    width: 100%;
+  }
+
+  .project-card-content h4 {
+    font-size: 1.2rem;
+  }
+
+  .project-card-content p {
+    font-size: 0.9rem;
+  }
+}
