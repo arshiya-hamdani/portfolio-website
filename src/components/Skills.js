@@ -13,7 +13,8 @@ import mysqlImg from '../Assets/mysql.png';
 import sqlImg from '../Assets/sql.png';
 import mongodbImg from '../Assets/mongodb.png';
 import oracleImg from '../Assets/oracle.png';
-import androidImg from '../Assets/android.png';;
+import androidImg from '../Assets/android.png';
+import wpImg from '../Assets/wp.png';
 
 const skills = [
   { name: 'HTML', imgSrc: htmlImg },
@@ -30,6 +31,7 @@ const skills = [
   { name: 'MongoDB', imgSrc: mongodbImg },
   { name: 'Oracle', imgSrc: oracleImg },
   { name: 'Android', imgSrc: androidImg },
+  { name: 'Wordpress', imgSrc: wpImg },
 
 ];
 
