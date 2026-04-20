@@ -6,8 +6,8 @@ const About = () => {
     <section className="about-section">
       <h2>let me introduce myself</h2>
       <div className="about-content">
-        <p>
-          Hello, I'm <span className="highlight">Arshiya</span>, a recent Bachelor of Computer Applications (BCA) graduate from BKMNU University (2021-2024). As a fresher with a keen interest in frontend designing and development, I am passionate about creating engaging and user-friendly web experiences. I have hands-on knowledge in HTML, CSS, and React.js, and am also familiar with Android development.
+       <p>
+          Hello, I'm <span className="highlight">Arshiya</span>. I hold a **Master’s degree from Parul University**, building upon my foundation as a Bachelor of Computer Applications (BCA) graduate from BKMNU University (2021-2024). 
         </p>
         <p>
           During my academic journey, I completed various projects that strengthened my technical expertise and problem-solving abilities. My experience with technologies like React.js, Bootstrap, and MySQL has allowed me to build dynamic and responsive web applications.
