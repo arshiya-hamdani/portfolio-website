@@ -3,6 +3,7 @@ import screenshottravel from '../Assets/travel-screenshot.png';
 import screenshotcontact from '../Assets/contact-screenshot.png';
 import screenshotgame from '../Assets/screenshotgame.png';
 import screenshot from '../Assets/portfolioscreenshot.png';
+import screenshotexp from '../Assets/expscreenshot.png';
 import ToDo from '../Assets/todo.png';
 
 import React from 'react';
@@ -46,6 +47,13 @@ function Projects() {
       image: ToDo,
       link: 'https://github.com/arshiya-hamdani/ToDo-App',
       demo: 'https://js-todo-listapp.netlify.app/', 
+    },
+    {
+      name: 'Expense Tracker  App',
+      description: 'React app to manage daily expenses with dynamic updates.',
+      image: screenshotexp,
+      link: 'https://github.com/arshiya-hamdani/Expense-tracker-App',
+      demo: 'https://a-my-expense-tracker-app.netlify.app/', 
     },
   ];
 
